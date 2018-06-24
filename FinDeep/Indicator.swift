@@ -11,5 +11,5 @@ import Foundation
 protocol Indicator {
     var name : String {get}
     var type : IndicatorType {get}
-    
+    func getStockData(symbol : String, startDate : Date, endDate : Date)
 }
