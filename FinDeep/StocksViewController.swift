@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StocksViewController: UIViewController {
+class StocksViewController: UIViewController, UISearchBarDelegate, UITableViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
