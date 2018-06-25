@@ -11,8 +11,14 @@ import Foundation
 enum DataType : String {
     case High
     case Low
-    case AdjClose
+    case Open
+    case Adjusted_Close
     case Volume
+    case Market_Cap
+    case P_E_Ratio
+    case Dividend_Yield
+    case Year_Long_High
+    case Year_Long_Low
 }
 
 class Stock {
