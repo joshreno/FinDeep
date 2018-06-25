@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D1D5F5720E068AD0079539C /* SimpleMovingAverageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D5F5620E068AD0079539C /* SimpleMovingAverageIndicator.swift */; };
+		5D1D5F5920E069410079539C /* BollingerBandsIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D5F5820E069410079539C /* BollingerBandsIndicator.swift */; };
 		5D2B42E420DEB2000056319E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B42E320DEB2000056319E /* AppDelegate.swift */; };
 		5D2B42E620DEB2000056319E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B42E520DEB2000056319E /* ViewController.swift */; };
 		5D2B42E920DEB2000056319E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B42E720DEB2000056319E /* Main.storyboard */; };
@@ -15,8 +17,6 @@
 		5D2B42F920DEB2010056319E /* FinDeepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B42F820DEB2010056319E /* FinDeepTests.swift */; };
 		5D2B430420DEB2010056319E /* FinDeepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B430320DEB2010056319E /* FinDeepUITests.swift */; };
 		5D2B431220DEF1000056319E /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B431120DEF1000056319E /* Indicator.swift */; };
-		5D2B431420DEFE230056319E /* IndicatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B431320DEFE230056319E /* IndicatorType.swift */; };
-		5D2B431620DFEF170056319E /* SimpleMovingAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B431520DFEF170056319E /* SimpleMovingAverage.swift */; };
 		5D2B431A20E008F40056319E /* StocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B431920E008F40056319E /* StocksViewController.swift */; };
 		5D2B431C20E0090F0056319E /* IndicatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B431B20E0090F0056319E /* IndicatorsViewController.swift */; };
 		5D2B431E20E0093C0056319E /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B431D20E0093C0056319E /* ChartsViewController.swift */; };
@@ -40,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D1D5F5620E068AD0079539C /* SimpleMovingAverageIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleMovingAverageIndicator.swift; sourceTree = "<group>"; };
+		5D1D5F5820E069410079539C /* BollingerBandsIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BollingerBandsIndicator.swift; sourceTree = "<group>"; };
 		5D2B42E020DEB2000056319E /* FinDeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinDeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2B42E320DEB2000056319E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D2B42E520DEB2000056319E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,8 +56,6 @@
 		5D2B430320DEB2010056319E /* FinDeepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinDeepUITests.swift; sourceTree = "<group>"; };
 		5D2B430520DEB2010056319E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D2B431120DEF1000056319E /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
-		5D2B431320DEFE230056319E /* IndicatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorType.swift; sourceTree = "<group>"; };
-		5D2B431520DFEF170056319E /* SimpleMovingAverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMovingAverage.swift; sourceTree = "<group>"; };
 		5D2B431920E008F40056319E /* StocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksViewController.swift; sourceTree = "<group>"; };
 		5D2B431B20E0090F0056319E /* IndicatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsViewController.swift; sourceTree = "<group>"; };
 		5D2B431D20E0093C0056319E /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
@@ -112,12 +112,12 @@
 				5D2B42E320DEB2000056319E /* AppDelegate.swift */,
 				5D2B42E520DEB2000056319E /* ViewController.swift */,
 				5D2B431120DEF1000056319E /* Indicator.swift */,
-				5D2B431320DEFE230056319E /* IndicatorType.swift */,
 				5D2B42E720DEB2000056319E /* Main.storyboard */,
 				5D2B431D20E0093C0056319E /* ChartsViewController.swift */,
 				5D2B431B20E0090F0056319E /* IndicatorsViewController.swift */,
+				5D1D5F5620E068AD0079539C /* SimpleMovingAverageIndicator.swift */,
+				5D1D5F5820E069410079539C /* BollingerBandsIndicator.swift */,
 				5D2B431920E008F40056319E /* StocksViewController.swift */,
-				5D2B431520DFEF170056319E /* SimpleMovingAverage.swift */,
 				5D2B42EA20DEB2000056319E /* Assets.xcassets */,
 				5D2B42EC20DEB2000056319E /* LaunchScreen.storyboard */,
 				5D2B42EF20DEB2000056319E /* Info.plist */,
@@ -274,10 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2B431620DFEF170056319E /* SimpleMovingAverage.swift in Sources */,
 				5D2B431E20E0093C0056319E /* ChartsViewController.swift in Sources */,
 				5D2B42E620DEB2000056319E /* ViewController.swift in Sources */,
-				5D2B431420DEFE230056319E /* IndicatorType.swift in Sources */,
+				5D1D5F5720E068AD0079539C /* SimpleMovingAverageIndicator.swift in Sources */,
+				5D1D5F5920E069410079539C /* BollingerBandsIndicator.swift in Sources */,
 				5D2B431A20E008F40056319E /* StocksViewController.swift in Sources */,
 				5D2B431C20E0090F0056319E /* IndicatorsViewController.swift in Sources */,
 				5D2B431220DEF1000056319E /* Indicator.swift in Sources */,

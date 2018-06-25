@@ -8,10 +8,9 @@
 
 import Foundation
 
-class SimpleMovingAverage : Indicator {
+class SimpleMovingAverageIndicator : Indicator {
     // Indicator protocol ...
     var name : String = "Simple Moving Average"
-    var type : IndicatorType = IndicatorType.Overlay
     func getStockData(symbol : String, startDate : Date, endDate : Date) {
         
     }
