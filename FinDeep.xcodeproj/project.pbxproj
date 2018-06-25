@@ -22,6 +22,7 @@
 		5D2B431A20E008F40056319E /* StocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B431920E008F40056319E /* StocksViewController.swift */; };
 		5D2B431C20E0090F0056319E /* IndicatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B431B20E0090F0056319E /* IndicatorsViewController.swift */; };
 		5D2B431E20E0093C0056319E /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B431D20E0093C0056319E /* ChartsViewController.swift */; };
+		5D2E7AD820E0807500C5F19C /* AroonIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2E7AD720E0807500C5F19C /* AroonIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		5D2B431920E008F40056319E /* StocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksViewController.swift; sourceTree = "<group>"; };
 		5D2B431B20E0090F0056319E /* IndicatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsViewController.swift; sourceTree = "<group>"; };
 		5D2B431D20E0093C0056319E /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		5D2E7AD720E0807500C5F19C /* AroonIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroonIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				5D2B42E520DEB2000056319E /* ViewController.swift */,
 				5D2B431120DEF1000056319E /* Indicator.swift */,
 				5D2B42E720DEB2000056319E /* Main.storyboard */,
+				5D2E7AD720E0807500C5F19C /* AroonIndicator.swift */,
 				5D1D5F5C20E06D380079539C /* Stock.swift */,
 				5D2B431D20E0093C0056319E /* ChartsViewController.swift */,
 				5D2B431B20E0090F0056319E /* IndicatorsViewController.swift */,
@@ -283,6 +286,7 @@
 				5D2B431E20E0093C0056319E /* ChartsViewController.swift in Sources */,
 				5D1D5F5B20E06C5F0079539C /* VolumeIndicator.swift in Sources */,
 				5D2B42E620DEB2000056319E /* ViewController.swift in Sources */,
+				5D2E7AD820E0807500C5F19C /* AroonIndicator.swift in Sources */,
 				5D1D5F5720E068AD0079539C /* SimpleMovingAverageIndicator.swift in Sources */,
 				5D1D5F5920E069410079539C /* BollingerBandsIndicator.swift in Sources */,
 				5D2B431A20E008F40056319E /* StocksViewController.swift in Sources */,
