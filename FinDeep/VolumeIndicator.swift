@@ -1,5 +1,5 @@
 //
-//  SimpleMovingAverage.swift
+//  VolumeIndicator.swift
 //  FinDeep
 //
 //  Created by Joshua Reno on 6/24/18.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class SimpleMovingAverageIndicator : Indicator {
+class VolumeIndicator : Indicator {
     var name : String = "Simple Moving Average"
     var day : Int = 20
 
@@ -16,7 +16,7 @@ class SimpleMovingAverageIndicator : Indicator {
         
     }
     
-    func setMovingAverageLength(day : Int) {
+    func setPeriod(day : Int) {
         self.day = day
     }
 }
