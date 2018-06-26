@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XEa-yb-E8o">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -18,13 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="euF-zI-Bn7">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="euF-zI-Bn7">
                                 <rect key="frame" x="0.0" y="20" width="375" height="598"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="euF-zI-Bn7" firstAttribute="trailing" secondItem="NYy-FF-yZR" secondAttribute="trailing" id="1zz-Jo-xf5"/>
+                            <constraint firstItem="euF-zI-Bn7" firstAttribute="leading" secondItem="NYy-FF-yZR" secondAttribute="leading" id="E8S-qk-rNf"/>
+                            <constraint firstItem="euF-zI-Bn7" firstAttribute="top" secondItem="NYy-FF-yZR" secondAttribute="top" id="cjF-wN-92s"/>
+                            <constraint firstItem="euF-zI-Bn7" firstAttribute="bottom" secondItem="NYy-FF-yZR" secondAttribute="bottom" id="kd9-Ii-xLv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="NYy-FF-yZR"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Indicators" id="Nt2-zp-EU8"/>
@@ -57,19 +62,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" text="Ticker Symbol" translatesAutoresizingMaskIntoConstraints="NO" id="I7W-ho-BJ8">
+                            <searchBar contentMode="redraw" text="Ticker Symbol" translatesAutoresizingMaskIntoConstraints="NO" id="I7W-ho-BJ8">
                                 <rect key="frame" x="0.0" y="20" width="375" height="56"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="75m-eM-uHr"/>
+                                </constraints>
                                 <color key="barTintColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6jz-vx-29K">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6jz-vx-29K">
                                 <rect key="frame" x="0.0" y="76" width="375" height="542"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <tableView key="tableFooterView" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Yqj-v1-PAP">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="542"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </tableView>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6jz-vx-29K" firstAttribute="bottom" secondItem="gmX-q3-S3k" secondAttribute="bottom" id="FRt-ge-5vP"/>
+                            <constraint firstItem="6jz-vx-29K" firstAttribute="leading" secondItem="gmX-q3-S3k" secondAttribute="leading" id="hXc-7r-XdX"/>
+                            <constraint firstItem="6jz-vx-29K" firstAttribute="trailing" secondItem="gmX-q3-S3k" secondAttribute="trailing" id="haO-Kq-UUD"/>
+                            <constraint firstItem="I7W-ho-BJ8" firstAttribute="trailing" secondItem="gmX-q3-S3k" secondAttribute="trailing" id="lvZ-Zb-pHh"/>
+                            <constraint firstItem="6jz-vx-29K" firstAttribute="top" secondItem="I7W-ho-BJ8" secondAttribute="bottom" id="sh6-CI-mo8"/>
+                            <constraint firstItem="I7W-ho-BJ8" firstAttribute="leading" secondItem="gmX-q3-S3k" secondAttribute="leading" id="uuI-MP-wvC"/>
+                            <constraint firstItem="I7W-ho-BJ8" firstAttribute="top" secondItem="gmX-q3-S3k" secondAttribute="top" id="zIW-0D-qzu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="gmX-q3-S3k"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Stocks" id="C0B-CS-PM5"/>
