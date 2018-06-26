@@ -11,6 +11,7 @@
 		5D1D5F5920E069410079539C /* BollingerBandsIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D5F5820E069410079539C /* BollingerBandsIndicator.swift */; };
 		5D1D5F5B20E06C5F0079539C /* VolumeIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D5F5A20E06C5F0079539C /* VolumeIndicator.swift */; };
 		5D1D5F5D20E06D380079539C /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D5F5C20E06D380079539C /* Stock.swift */; };
+		5D29D88F20E1D583001565AC /* MovingAverageConvergenceDivergenceIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D29D88E20E1D583001565AC /* MovingAverageConvergenceDivergenceIndicator.swift */; };
 		5D2B42E420DEB2000056319E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B42E320DEB2000056319E /* AppDelegate.swift */; };
 		5D2B42E620DEB2000056319E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B42E520DEB2000056319E /* ViewController.swift */; };
 		5D2B42E920DEB2000056319E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B42E720DEB2000056319E /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		5D1D5F5820E069410079539C /* BollingerBandsIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BollingerBandsIndicator.swift; sourceTree = "<group>"; };
 		5D1D5F5A20E06C5F0079539C /* VolumeIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeIndicator.swift; sourceTree = "<group>"; };
 		5D1D5F5C20E06D380079539C /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		5D29D88E20E1D583001565AC /* MovingAverageConvergenceDivergenceIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAverageConvergenceDivergenceIndicator.swift; sourceTree = "<group>"; };
 		5D2B42E020DEB2000056319E /* FinDeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinDeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2B42E320DEB2000056319E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D2B42E520DEB2000056319E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				5D2B431120DEF1000056319E /* Indicator.swift */,
 				5D2B42E720DEB2000056319E /* Main.storyboard */,
 				5D2E7AD720E0807500C5F19C /* AroonIndicator.swift */,
+				5D29D88E20E1D583001565AC /* MovingAverageConvergenceDivergenceIndicator.swift */,
 				5D1D5F5C20E06D380079539C /* Stock.swift */,
 				5D2B431D20E0093C0056319E /* ChartsViewController.swift */,
 				5D2B431B20E0090F0056319E /* IndicatorsViewController.swift */,
@@ -290,6 +293,7 @@
 				5D1D5F5720E068AD0079539C /* SimpleMovingAverageIndicator.swift in Sources */,
 				5D1D5F5920E069410079539C /* BollingerBandsIndicator.swift in Sources */,
 				5D2B431A20E008F40056319E /* StocksViewController.swift in Sources */,
+				5D29D88F20E1D583001565AC /* MovingAverageConvergenceDivergenceIndicator.swift in Sources */,
 				5D2B431C20E0090F0056319E /* IndicatorsViewController.swift in Sources */,
 				5D2B431220DEF1000056319E /* Indicator.swift in Sources */,
 				5D1D5F5D20E06D380079539C /* Stock.swift in Sources */,

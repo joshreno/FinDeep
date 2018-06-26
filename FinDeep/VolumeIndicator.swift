@@ -9,12 +9,12 @@
 import Foundation
 
 class VolumeIndicator : Indicator {
-    var name : String = "Simple Moving Average"
+    var name : String = "Volume"
     var day : Int = 20
 
-    func getStockData(symbol : String, startDate : Date, endDate : Date) {
-        
-    }
+    func getStockData(symbol : String, startDate : Date, endDate : Date) {}
+    
+    func getName() -> String {return name}
     
     func setPeriod(day : Int) {
         self.day = day

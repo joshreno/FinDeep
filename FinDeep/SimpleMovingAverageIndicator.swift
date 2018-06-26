@@ -12,9 +12,9 @@ class SimpleMovingAverageIndicator : Indicator {
     var name : String = "Simple Moving Average"
     var day : Int = 20
 
-    func getStockData(symbol : String, startDate : Date, endDate : Date) {
-        
-    }
+    func getStockData(symbol : String, startDate : Date, endDate : Date) {}
+    
+    func getName() -> String {return name}
     
     func setMovingAverageLength(day : Int) {
         self.day = day

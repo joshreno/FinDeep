@@ -9,12 +9,12 @@
 import Foundation
 
 class AroonIndicator : Indicator {
-    var name : String = "Simple Moving Average"
+    var name : String = "Aroon"
     var day : Int = 25
     
-    func getStockData(symbol : String, startDate : Date, endDate : Date) {
-        
-    }
+    func getStockData(symbol : String, startDate : Date, endDate : Date) {}
+    
+    func getName() -> String {return name}
     
     func Aroon () {
         //Aroon-Up = ((25 - Days Since 25-day High)/25) x 100

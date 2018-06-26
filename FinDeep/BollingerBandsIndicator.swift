@@ -10,14 +10,14 @@
 import Foundation
 
 class BollingerBandsIndicator : Indicator {
-    var name : String = "Simple Moving Average"
+    var name : String = "Bollinger Bands"
     var day : Int = 20
 
-    func getStockData(symbol : String, startDate : Date, endDate : Date) {
-        
-    }
+    func getStockData(symbol : String, startDate : Date, endDate : Date) {}
     
-    func setLengthOfDay(day : Int) {
+    func getName() -> String {return name}
+    
+    func setPeriod(day : Int) {
         self.day = day
     }
     
