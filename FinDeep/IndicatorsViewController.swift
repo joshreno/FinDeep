@@ -12,6 +12,7 @@ class IndicatorsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        UIApplication.shared.statusBarStyle = .lightContent
 
         // Do any additional setup after loading the view.
     }
