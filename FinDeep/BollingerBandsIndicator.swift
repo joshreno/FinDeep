@@ -10,7 +10,9 @@
 import Foundation
 
 class BollingerBandsIndicator : Indicator {
+    
     var name : String = "Bollinger Bands"
+    
     var day : Int = 20
 
     func getStockData(symbol : String, startDate : Date, endDate : Date) {}
@@ -32,6 +34,5 @@ class BollingerBandsIndicator : Indicator {
     func BandwidthDelta() {
         // Bandwidth = (upperBB − lowerBB) / middleBB
         // where middleBB is the SMA
-        
     }
 }

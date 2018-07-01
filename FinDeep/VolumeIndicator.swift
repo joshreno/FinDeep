@@ -9,7 +9,9 @@
 import Foundation
 
 class VolumeIndicator : Indicator {
+    
     var name : String = "Volume"
+    
     var day : Int = 20
 
     func getStockData(symbol : String, startDate : Date, endDate : Date) {}

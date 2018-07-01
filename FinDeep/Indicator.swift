@@ -9,7 +9,10 @@
 import Foundation
 
 protocol Indicator {
+    
     var name : String {get}
+    
     func getStockData(symbol : String, startDate : Date, endDate : Date)
+    
     func getName() -> String
 }

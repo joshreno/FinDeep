@@ -9,7 +9,9 @@
 import Foundation
 
 class AroonIndicator : Indicator {
+    
     var name : String = "Aroon"
+    
     var day : Int = 25
     
     func getStockData(symbol : String, startDate : Date, endDate : Date) {}

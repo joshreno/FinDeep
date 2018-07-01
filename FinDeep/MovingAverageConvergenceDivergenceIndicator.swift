@@ -9,7 +9,9 @@
 import Foundation
 
 class MovingAverageConvergenceDivergenceIndicator : Indicator {
+    
     var name : String = "MACD"
+    
     var day : Int = 25
     
     func getStockData(symbol : String, startDate : Date, endDate : Date) {}

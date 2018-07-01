@@ -22,7 +22,6 @@ class IndicatorsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     /*
     // MARK: - Navigation
 
@@ -32,5 +31,4 @@ class IndicatorsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }

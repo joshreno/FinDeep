@@ -21,7 +21,6 @@ class StocksViewController: UIViewController, UISearchBarDelegate, UITableViewDe
         // Dispose of any resources that can be recreated.
     }
     
-
     /*
     // MARK: - Navigation
 
@@ -31,5 +30,4 @@ class StocksViewController: UIViewController, UISearchBarDelegate, UITableViewDe
         // Pass the selected object to the new view controller.
     }
     */
-
 }

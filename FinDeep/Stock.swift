@@ -25,8 +25,11 @@ enum DataType : String {
 }
 
 class Stock {
+    
     var Stocks: [StockObject]? = nil
+    
     func getStockData(symbol : String, startDate : Date, endDate : Date, dataTypes : [DataType]) {}
+    
     func addStock(symbol: String) {
         var stock: StockObject = StockObject(name: symbol)
     }
