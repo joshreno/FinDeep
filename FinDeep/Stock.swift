@@ -22,7 +22,20 @@ enum DataType : String {
 }
 
 class Stock {
+    var Stocks: [StockObject]? = nil
     func getStockData(symbol : String, startDate : Date, endDate : Date, dataTypes : [DataType]) {
         
+    }
+}
+
+class StockObject {
+    var name: String = "Stock"
+    
+    func getName() -> String {
+        return name
+    }
+    
+    func setName(name: String) {
+        self.name = name
     }
 }
