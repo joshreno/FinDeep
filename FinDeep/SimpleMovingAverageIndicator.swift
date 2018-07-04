@@ -9,8 +9,8 @@
 import Foundation
 
 class SimpleMovingAverageIndicator : Indicator {
-    var name : String = "Simple Moving Average"
     var day : Int = 20
+    var name : String = "Simple Moving Average"
 
     func getStockData(symbol : String, startDate : Date, endDate : Date) {
         //let dates = DateInterval(start: startDate, end: endDate)

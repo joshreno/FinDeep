@@ -11,10 +11,10 @@ import Foundation
 
 class BollingerBandsIndicator : Indicator {
     
+    var day : Int = 20
+    
     var name : String = "Bollinger Bands"
     
-    var day : Int = 20
-
     func getStockData(symbol : String, startDate : Date, endDate : Date) {}
     
     func getName() -> String {return name}

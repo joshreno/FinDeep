@@ -9,19 +9,19 @@
 import Foundation
 
 enum DataType : String {
+    case Adjusted_Close
+    case Dividend_Yield
     case High
     case Low
-    case Open
-    case Adjusted_Close
-    case Volume
     case Market_Cap
+    case Open
     case P_E_Ratio
-    case Dividend_Yield
+    case Volume
     case Year_Long_High
     case Year_Long_Low
     // if market not closed:
-    case PreviousClose
     case CurrentPrice
+    case PreviousClose
 }
 
 class Stock {
@@ -36,16 +36,21 @@ class Stock {
 }
 
 class StockObject {
-    private var name: String = "Stock"
-    private var high: Double = 0.00
-    private var low: Double = 0.00
-    private var open: Double = 0.00
     private var close: Double = 0.00
     private var current: Double = 0.00
+    private var date: String = ""
+    private var high: Double = 0.00
+    private var low: Double = 0.00
+    private var name: String = "Stock"
+    private var open: Double = 0.00
     private var previousClose: Double = 0.00
     
     init (name: String) {
         self.name = name
+        let date = Date()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM.dd.yyyy"
+        self.date = formatter.string(from: date)
     }
     
     func getName() -> String {
