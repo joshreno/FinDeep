@@ -36,6 +36,7 @@ class Stock {
 }
 
 class StockObject {
+    // current day data
     private var close: Double = 0.00
     private var current: Double = 0.00
     private var date: String = ""
@@ -44,6 +45,13 @@ class StockObject {
     private var name: String = "Stock"
     private var open: Double = 0.00
     private var previousClose: Double = 0.00
+    
+    // time-series data
+    private var adjclose_array: [Double] = []
+    private var high_array: [Double] = []
+    private var low_array: [Double] = []
+    private var open_array: [Double] = []
+    private var volume_array: [Int] = []
     
     init (name: String) {
         self.name = name
