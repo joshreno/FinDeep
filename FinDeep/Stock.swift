@@ -29,9 +29,7 @@ class Stock {
     var Stocks: [StockObject]? = nil
     
     init(symbol: [String]) {
-        for symbols in symbol {
-            addStock(symbol: symbols)
-        }
+        for symbols in symbol {addStock(symbol: symbols)}
     }
     
     func getStockData(symbol : String, startDate : Date, endDate : Date, dataTypes : [DataType]) {}
