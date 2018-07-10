@@ -24,6 +24,7 @@
 		5D2B431C20E0090F0056319E /* IndicatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B431B20E0090F0056319E /* IndicatorsViewController.swift */; };
 		5D2B431E20E0093C0056319E /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B431D20E0093C0056319E /* ChartsViewController.swift */; };
 		5D2E7AD820E0807500C5F19C /* AroonIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2E7AD720E0807500C5F19C /* AroonIndicator.swift */; };
+		5D56D8B120F43AE1004328D9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D56D8B020F43AE1004328D9 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		5D2B431B20E0090F0056319E /* IndicatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsViewController.swift; sourceTree = "<group>"; };
 		5D2B431D20E0093C0056319E /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
 		5D2E7AD720E0807500C5F19C /* AroonIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroonIndicator.swift; sourceTree = "<group>"; };
+		5D56D8B020F43AE1004328D9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				5D2B42E520DEB2000056319E /* ViewController.swift */,
 				5D2B431120DEF1000056319E /* Indicator.swift */,
 				5D2B42E720DEB2000056319E /* Main.storyboard */,
+				5D56D8B020F43AE1004328D9 /* SettingsViewController.swift */,
 				5D2E7AD720E0807500C5F19C /* AroonIndicator.swift */,
 				5D29D88E20E1D583001565AC /* MovingAverageConvergenceDivergenceIndicator.swift */,
 				5D1D5F5C20E06D380079539C /* Stock.swift */,
@@ -296,6 +299,7 @@
 				5D29D88F20E1D583001565AC /* MovingAverageConvergenceDivergenceIndicator.swift in Sources */,
 				5D2B431C20E0090F0056319E /* IndicatorsViewController.swift in Sources */,
 				5D2B431220DEF1000056319E /* Indicator.swift in Sources */,
+				5D56D8B120F43AE1004328D9 /* SettingsViewController.swift in Sources */,
 				5D1D5F5D20E06D380079539C /* Stock.swift in Sources */,
 				5D2B42E420DEB2000056319E /* AppDelegate.swift in Sources */,
 			);

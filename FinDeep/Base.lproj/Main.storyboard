@@ -57,7 +57,7 @@
         <!--Settings-->
         <scene sceneID="AiK-B5-irL">
             <objects>
-                <viewController id="GQh-No-doM" sceneMemberID="viewController">
+                <viewController id="GQh-No-doM" customClass="SettingsViewController" customModule="FinDeep" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7M7-S9-R0a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
