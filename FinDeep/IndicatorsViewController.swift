@@ -9,6 +9,15 @@
 import UIKit
 
 class IndicatorsViewController: UIViewController {
+    
+    var day: Int = 20
+    var indicators: [Indicator] = []
+    var sma: SimpleMovingAverageIndicator = SimpleMovingAverageIndicator(day: 20)
+    
+    func start() {
+        indicators.append(sma)
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
