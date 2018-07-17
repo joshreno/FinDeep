@@ -15,6 +15,10 @@ class BollingerBandsIndicator : Indicator {
     
     var name : String = "Bollinger Bands"
     
+    init(day : Int) {
+        self.day = day
+    }
+    
     func getStockData(symbol : String, startDate : Date, endDate : Date) {}
     
     func getName() -> String {return name}

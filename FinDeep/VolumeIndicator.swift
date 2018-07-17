@@ -13,6 +13,10 @@ class VolumeIndicator : Indicator {
     var day : Int = 20
     
     var name : String = "Volume"
+    
+    init(day : Int) {
+        self.day = day
+    }
 
     func getStockData(symbol : String, startDate : Date, endDate : Date) {}
     

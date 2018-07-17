@@ -12,10 +12,19 @@ class IndicatorsViewController: UIViewController {
     
     var day: Int = 20
     var indicators: [Indicator] = []
+    var aroon: AroonIndicator = AroonIndicator(day: 25)
+    var bb: BollingerBandsIndicator = BollingerBandsIndicator(day: 20)
+    var macd: MovingAverageConvergenceDivergenceIndicator = MovingAverageConvergenceDivergenceIndicator(day: 25)
     var sma: SimpleMovingAverageIndicator = SimpleMovingAverageIndicator(day: 20)
+    var volume: VolumeIndicator = VolumeIndicator(day: 20)
+
     
     func start() {
+        indicators.append(aroon)
+        indicators.append(bb)
+        indicators.append(macd)
         indicators.append(sma)
+        indicators.append(volume)
     }
     
 

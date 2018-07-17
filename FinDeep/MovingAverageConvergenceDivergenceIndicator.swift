@@ -14,6 +14,10 @@ class MovingAverageConvergenceDivergenceIndicator : Indicator {
     
     var day : Int = 25
     
+    init(day : Int) {
+        self.day = day
+    }
+    
     func getStockData(symbol : String, startDate : Date, endDate : Date) {}
     
     func getName() -> String {return name}
