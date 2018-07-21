@@ -9,8 +9,12 @@
 import Foundation
 
 class SimpleMovingAverageIndicator : Indicator {
-    var day : Int = 20
+    
     var name : String = "Simple Moving Average"
+    
+    var description: String = ""
+    
+    var day : Int = 20
     
     init(day : Int) {
         self.day = day

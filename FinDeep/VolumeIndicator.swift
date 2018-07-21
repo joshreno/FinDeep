@@ -10,9 +10,11 @@ import Foundation
 
 class VolumeIndicator : Indicator {
     
-    var day : Int = 20
-    
     var name : String = "Volume"
+    
+    var description: String = ""
+    
+    var day : Int = 20
     
     init(day : Int) {
         self.day = day

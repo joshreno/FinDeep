@@ -11,9 +11,11 @@ import Foundation
 
 class BollingerBandsIndicator : Indicator {
     
-    var day : Int = 20
-    
     var name : String = "Bollinger Bands"
+    
+    var description: String = ""
+    
+    var day : Int = 20
     
     init(day : Int) {
         self.day = day

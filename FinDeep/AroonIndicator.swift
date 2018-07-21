@@ -12,6 +12,8 @@ class AroonIndicator : Indicator {
     
     var name : String = "Aroon"
     
+    var description: String = ""
+    
     var day : Int = 25
     
     init(day : Int) {
