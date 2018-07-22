@@ -12,7 +12,7 @@ class SimpleMovingAverageIndicator : Indicator {
     
     var name : String = "Simple Moving Average"
     
-    var description: String = ""
+    var description: String = "SMA indicates the average of a stock's price over a given number of days."
     
     var day : Int = 20
     
@@ -31,9 +31,6 @@ class SimpleMovingAverageIndicator : Indicator {
     }
     
     func SMA(stocks: [Double]) {
-        var sma : [Double] = []
-        for n in day...stocks.count {
-            
-        }
+
     }
 }
