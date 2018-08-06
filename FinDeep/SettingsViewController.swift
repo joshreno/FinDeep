@@ -9,6 +9,16 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
+    
+    var period : Int = 20
+    
+    func setPeriod(period: Int) {
+        self.period = period
+    }
+    
+    func getPeriod() -> Int {
+        return self.period
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
